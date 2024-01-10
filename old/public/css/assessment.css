@@ -1,0 +1,1154 @@
+#app .row,
+#app .col-md-2 {
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+}
+
+button:focus {
+    outline: none !important;
+}
+
+.assessment-logo {
+    display: block;
+    height: 200px;
+}
+
+.assessment-logo img {
+    position: absolute;
+    top: -60px;
+    left: -72px;
+}
+
+.step-liner {
+    position: absolute;
+    width: 1px;
+    background-color: #9e9e9e57;
+    height: 773px;
+    left: 48%;
+}
+
+.steps ul {
+    list-style: none;
+    padding-left: 0;
+    text-align: center;
+}
+
+.steps ul li {
+    margin-bottom: 130px;
+    background-color: white;
+    position: relative;
+    padding-bottom: 13px;
+    padding-top: 20px;
+}
+
+.step-icon i {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #d8d8d8;
+    color: #fff;
+    text-align: center;
+    line-height: 50px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.active-step {
+    background-color: #2090fe !important;
+}
+
+.step-name {
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.assessment-container {
+    background-color: #f6f9ff;
+}
+
+/* content style */
+.operator-filter {
+    width: 100%;
+    height: 50px;
+    margin-top: 20px;
+}
+
+.operator-filter h1 {
+    float: left;
+    font-size: 29px;
+    letter-spacing: 2px;
+    font-family: inherit;
+    margin-left: 0;
+    margin-top: 13px;
+}
+
+.operator-filter input {
+    width: 50%;
+    float: left;
+    margin-top: 7px;
+    height: 45px;
+    padding-left: 22px;
+    border-radius: 40px;
+    outline: none;
+    border: solid 1px #ccc;
+    margin-left: 5%;
+    background-color: #f6f9ff;
+}
+
+.assestment-user {
+    display: none;
+}
+
+.step-container-operators,
+.step-container-calls {
+    width: 95%;
+    margin: 0 auto;
+    display: block;
+}
+
+.assessment-tab {
+    width: 100%;
+    margin-top: 56px;
+    height: 45px;
+    line-height: 40px;
+    border-bottom: solid 1px #ccc;
+    padding-left: 0;
+}
+
+.operators-tab,
+.assessment-operators {
+    width: 245px;
+    float: left;
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+    padding-left: 18px;
+    color: #5c5c5c;
+}
+
+.operators-tab {
+    width: 153px !important;
+}
+
+.assessment-operators {
+    margin-left: 100px !important;
+    display: none;
+}
+
+.active-tab {
+    color: #2090fe;
+    border-bottom: solid 8px;
+}
+
+.table-scrool table {
+    width: 100%;
+    margin-top: 0;
+}
+
+.table-scrool table thead tr { 
+    height: 71px;
+    background-color: #2090fe;
+}
+
+.table-scrool table thead th:first-child {
+    border-radius: 10px 0 0 10px;
+}
+
+.table-scrool table thead th:last-child {
+    border-radius: 0 10px 10px 0;
+    border-right: none;
+}
+
+.table-scrool table thead th {
+    padding-left: 25px;
+    border-right: solid #fff 1px;
+    color: #fff;
+    font-size: large;
+}
+
+.table-scrool table tbody {
+    background-color: #fff;
+}
+
+.table-scrool table tbody tr {
+    padding-top: 10px;
+    height: 70px;
+    line-height: 70px;
+    padding-bottom: 10px;
+    border-bottom: solid #ccc 1px;
+    /* cursor: pointer; */
+}
+
+.table-scrool table tbody td {
+    padding-left: 25px;
+    line-height: 34px;
+    height: 94px;
+}
+
+.table-scrool table tbody td a {
+    margin-left: 90px;
+}
+
+.continue-assestment {
+    width: 136px;
+    background: #0091fe;
+    font-weight: bold;
+    color: white;
+    border: 0 none;
+    border-radius: 25px;
+    cursor: pointer;
+    height: 40px;
+    line-height: 40px;
+    position: relative;
+    left: 46px;
+}
+
+table tbody .button--add:focus {
+    outline: none;
+}
+
+.continue-assestment {
+    background-color: #73c966 !important;
+    left: 70px;
+}
+
+.selected-user-assessment .continue-assestment {
+    margin-top: 33px !important;
+}
+
+.selected-user-assessment .continue-assestment:focus {
+    outline: none;
+}
+
+.step-container-operators table tbody i {
+    font-size: 35px;
+    position: relative;
+    top: 7px;
+    margin-right: 11px;
+}
+
+.table-scrool {
+    display: block;
+    width: 100%;
+    max-height: 700px;
+    overflow-y: auto;
+    margin-top: 40px;
+}
+
+.selected-user-info {
+    width: 60%;
+    float: left;
+    margin-top: 30px;
+}
+
+.selected-user-info .fa-times-circle {
+    font-size: 28px;
+    cursor: pointer;
+    color: #2090fe;
+}
+
+.selected-user-info .fa-user-circle {
+    font-size: 45px;
+    position: relative;
+    top: 6px;
+    margin-right: 11px;
+    left: 6px;
+}
+
+.selected-user-info span {
+    position: relative;
+    bottom: 5px;
+    left: 13px;
+    font-size: 20px;
+}
+
+.selected-user-show {
+    display: none;
+}
+
+.step-container-date {
+    display: none;
+}
+
+.step-container-date .input-daterange {
+    width: 680px;
+    height: 280px;
+    margin-left: 5px;
+    margin-top: 170px;
+    background-color: #fff;
+    border-radius: 18px;
+    padding: 15px 15px 35px 15px;
+}
+
+.step-container-date .fs-title {
+    font-size: 27px;
+    margin-top: 88px;
+    position: absolute;
+    top: 18px;
+    left: 24px;
+}
+
+.step-container-date .input-daterange .date-selected {
+    width: 93%;
+    margin-left: 3%;
+    margin-top: 22px;
+}
+
+.date-selected label {
+    font-size: 20px;
+    color: #607d8b;
+    font-family: revert;
+}
+
+.step-container-date .input-daterange .date-selected input {
+    height: 45px;
+}
+
+.response-loading {
+    display: none;
+    width: 27px;
+    position: absolute;
+    margin-top: 3px;
+    margin-left: 6px;
+}
+
+.audio-loading {
+    display: none;
+    width: 200px;
+    position: relative;
+    left: 40%;
+    top: 75px;
+    z-index: 10000000;
+    height: 100%;
+    bottom: 1px;
+}
+
+.action-button,
+.call-assessment-next {
+    width: 150px;
+    background: #0091fe;
+    font-weight: bold;
+    color: white;
+    border: 0 none;
+    border-radius: 25px;
+    height: 44px;
+    line-height: 31px;
+    position: relative;
+    margin-left: 1%;
+    margin-top: 16px;
+}
+
+.selected-user-assessment {
+    margin-bottom: 30px;
+}
+
+.step-container-services {
+    display: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 180px;
+    background-color: #fff;
+    padding-top: 15px;
+    border-radius: 8px;
+}
+
+.step-container-calls {
+    display: none;
+    margin-top: 180px;
+}
+
+.critery-list {
+    display: block;
+    float: left;
+    padding-left: 0 !important;
+    margin-left: -16px;
+}
+
+.audio-player {
+    display: none;
+    visibility: initial;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 20px 10px;
+}
+
+.audio-play {
+    padding: 8px 15px;
+    border-radius: 12px;
+    border: none;
+    margin-top: 27px;
+    color: #fff;
+    background-color: #2090fe;
+    margin-bottom: 30px;
+    /* display: none; */
+    margin-left: 45%;
+}
+
+#waveform-time-indicator {
+    text-align: center;
+}
+
+#waveform-time-indicator .time {
+    color: #2090fe;
+    font-size: 21px;
+    position: relative;
+    top: 10px;
+}
+
+.audio-play:focus {
+    outline: none;
+}
+
+.audio-play i {
+    position: relative;
+    color: #2090fe;
+    margin-right: 6px;
+    background-color: white;
+    padding: 7px 7px 7px 5.5px;
+    width: 25px;
+    height: 25px;
+    line-height: 12px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.audio-play span {
+    position: relative;
+    bottom: 0;
+}
+
+.selected-items .fa-play-circle {
+    position: absolute;
+    cursor: pointer;
+    font-size: 20px;
+    color: #2090fe;
+    right: 70px;
+}
+
+.common-score {
+    text-align: center;
+    position: absolute;
+    margin-top: -35px;
+    width: 100%;
+    right: 0;
+    border-bottom: solid 1px #ccc;
+    padding-bottom: 11px;
+    font-weight: 700;
+    font-size: 19px;
+}
+
+.call-assessment,
+.call-assessment:focus {
+    border: none;
+    padding: 8px 34px;
+    border-radius: 26px;
+    outline: none;
+    background-color: #73c966;
+    color: #fff;
+    letter-spacing: 1px;
+    font-family: unset;
+    float: right;
+    margin-top: 24px;
+    margin-right: 18px;
+}
+
+.clear-common-score {
+    width: 100px;
+    height: 36px;
+    float: right;
+    line-height: 36px;
+    background-color: #2090fe;
+    color: #fff;
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+    top: -39px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.common-score span {
+    color: #2090fe;
+}
+
+.step-container-calls .body-detail {
+    padding-left: 0;
+    /* display: block !important; */
+}
+
+.new-critery-list {
+    float: right;
+    margin-top: 45px;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+.call-comment,
+.complaint-comment {
+    width: 96% !important;
+    margin-left: 6px;
+    margin-top: 18px;
+    border: solid 1px #ccc;
+    padding-left: 9px;
+}
+
+.call-comment:focus,
+.complaint-comment:focus,
+.curator-comment:focus,
+.leader-comment:focus {
+    outline: none;
+}
+
+.add-critery {
+    position: absolute;
+    right: 49px;
+    cursor: pointer;
+}
+
+.badge-pill {
+    position: absolute;
+    right: 14px;
+}
+
+.selected-critery-name,
+.critery-name {
+    width: 68%;
+    position: absolute;
+    left: 55px;
+}
+
+#checked-count {
+    width: 500px;
+    height: 45px;
+    border-radius: 23px;
+    border: solid 1px #2090fc;
+    padding-left: 16px;
+    line-height: 45px;
+}
+
+#checked-count:focus {
+    outline: none;
+}
+
+.selected-operator-info {
+    width: auto;
+    text-align: center;
+    border-radius: 25px;
+    height: 50px;
+    line-height: 41px;
+    border: solid #2090fe 1px;
+    color: #2090fe;
+    font-size: 18px;
+    font-weight: 500;
+    position: absolute;
+    top: 11px;
+    padding: 0 20px;
+}
+
+.selected-operator-info span {
+    font-weight: 700;
+    font-size: 20px;
+    margin-left: 5px;
+    text-transform: uppercase;
+}
+
+.selected-services,
+.selected-calls,
+.selected-not-days {
+    width: 320px;
+    float: left;
+    font-size: 20px;
+}
+
+.step-container-services h3 {
+    position: absolute;
+    top: 105px;
+}
+
+.dropdown-toggle {
+    margin-left: 64px;
+    padding: 9px 35px !important;
+    background-color: #2090fe !important;
+    border-color: #2090fe !important;
+    border-radius: 30px !important;
+    margin-top: 28px;
+}
+
+.dropdown-toggle:focus {
+    outline: none !important;
+    border-color: #2090fe !important;
+    box-shadow: none !important;
+}
+
+.statistic-counts {
+    height: 60px;
+    line-height: 50px;
+}
+
+.statistic-counts span {
+    color: #2090fe;
+    font-weight: 900;
+}
+
+.step-container-date .action-button {
+    margin-left: 34.5%;
+}
+
+.selected-call-assessment {
+    position: relative;
+    bottom: 68px;
+    left: 12px;
+    font-weight: 700;
+    font-size: 23px;
+    letter-spacing: 1px;
+    color: #000000ad;
+}
+
+.checked-critery {
+    font-size: 18px;
+    margin-bottom: 2px;
+}
+
+.selected-items .fa-trash-alt {
+    position: absolute;
+    right: 11px;
+    cursor: pointer;
+    color: #2090fe;
+    font-size: 18px;
+    top: 15px;
+}
+
+.selected-items .badge-pill {
+    position: absolute;
+    right: 39px;
+    background-color: #fff;
+    border: solid #2196f3 1px;
+    color: #007bff;
+    width: 23px;
+    height: 22px;
+    line-height: 13px;
+    text-align: center;
+    border-radius: 50%;
+}
+
+.new-critery-list .selected-items {
+    margin-top: 15px;
+}
+
+.new-critery-list .selected-items .list-group-item {
+    margin-top: 3px;
+    height: 60px;
+}
+
+.new-critery-list .selected-items .list-group-item .selected-time {
+    position: absolute;
+    right: 98px;
+}
+
+.new-critery-list .selected-items .list-group-item .selected-critery-name {
+    width: 77% !important;
+    left: 16px !important;
+}
+
+.selected-call-assessment i {
+    color: #2090fe;
+}
+
+.active-line {
+    background-color: #2090fe;
+    color: #fff;
+    box-shadow: "1px 1px 3px 0px #2090fe";
+}
+
+.supervisor-counter {
+    width: 110px;
+    height: 30px;
+    text-align: center;
+    line-height: 29px;
+    background-color: #73c966;
+    color: #fff;
+    font-size: 21px;
+    border-radius: 45px;
+    margin-left: 0;
+    margin-top: 7px;
+}
+
+.call-assessment-status {
+    color: #73c966;
+    padding: 19px;
+    letter-spacing: 0px;
+    font-weight: 600;
+    font-size: 19px;
+}
+
+.assessment-call-loading {
+    margin-left: -28px !important;
+    margin-top: 0 !important;
+}
+
+.assesment-completed {
+    width: 350px;
+    background: #0091fe;
+    font-weight: bold;
+    color: white;
+    border: 0 none;
+    border-radius: 25px;
+    height: 44px;
+    line-height: 31px;
+    position: relative;
+    margin-left: 37%;
+    margin-top: 16px;
+}
+
+.services-call-list {
+    width: 30% !important;
+}
+
+.assessment-header {
+    width: 100%;
+    height: 75px;
+    background-color: #2090fe;
+    display: block;
+}
+
+.assessment-header .dropdown-toggle {
+    margin-top: 15px !important;
+}
+
+.operator-assessment h3,
+.operator-assessment h4,
+.operator-assessment .all-assessment-tab {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.all-assessment-tab button {
+    width: auto;
+    height: 41px;
+    border-radius: 43px;
+    border: none;
+    background-color: #2090fe;
+    border: solid #2090fe 1px;
+    color: #fff;
+    font-size: 21px;
+    line-height: 39px;
+    box-shadow: 0px 0px 2px 1px #f0e9e9;
+    padding: 0px 38px;
+    margin: 8px;
+}
+
+.all-assessment-tab button:nth-child(2) {
+    background: none !important;
+    color: #73c966;
+    line-height: 19px;
+    border: solid 2px #73c966;
+}
+
+.package-response-loading {
+    position: absolute;
+    width: 29px;
+    z-index: 10000;
+    left: 9px;
+    height: 100%;
+    bottom: 0;
+    top: 1px;
+    display: none;
+}
+
+.completed-assessment {
+    width: 225px;
+    height: 50px;
+    border: none;
+    background-color: #2090fe;
+    color: #fff;
+    border-radius: 51px;
+    position: relative;
+    font-size: 21px;
+    top: 9px;
+    left: 79.9%;
+    display: none;
+}
+
+.assessment-details {
+    width: 136px;
+    position: relative;
+    left: 31px;
+    border-radius: 21px;
+    background-color: #2090fe;
+    color: #fff;
+    font-size: 19px;
+    border: none;
+}
+
+.op-assessment-checked {
+    width: 27px;
+    height: 27px;
+    vertical-align: middle;
+    border: 1px solid #ddd;
+    margin-left: 31%;
+}
+
+.assessment-left-arrow a {
+    font-size: 43px;
+    position: absolute;
+    left: 84px;
+    margin-top: -16px;
+    color: #2090fe;
+}
+
+.assessment-header .dropdown-toggle {
+    margin-left: 64px;
+    padding: 7px 35px !important;
+    background-color: #ffffff !important;
+    border-color: #2090fe !important;
+    border-radius: 30px !important;
+    color: #2090fe !important;
+    font-size: 17px !important;
+}
+
+.operator-assessment table tbody td .fa-check {
+    margin-left: 40%;
+}
+
+.assessment-detail-page img,
+.assessment-calls-detail img,
+.assessment-call-archive-detail img {
+    width: 32px;
+    position: absolute;
+    left: 6px;
+    top: 3px;
+    display: none;
+}
+
+.assessment-calls-detail,
+.assessment-call-archive-detail {
+    left: 0 !important;
+}
+
+.assessment-date-between {
+    color: #2090fe !important;
+}
+
+.operator-assessment h5 {
+    text-align: center;
+}
+
+.operator-assessment #accordionExample {
+    position: relative;
+    display: block;
+}
+
+.operator-assessment .new-critery-list {
+    margin-top: 0;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    width: 100%;
+    position: relative;
+    margin-bottom: 25px;
+    z-index: 1000;
+}
+
+.active-assessted-line {
+    background-color: #73c966 !important;
+}
+
+.operator-assessment #accordionExample .fa-print {
+    cursor: pointer;
+    margin-left: 60px;
+    font-size: 20px;
+    color: #2090fe;
+}
+
+.modal-dialog {
+    max-width: 98% !important;
+}
+
+.modal-header {
+    text-align: center;
+    display: block !important;
+    color: #73c966;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.modal-body table thead tr {
+    height: 53px;
+    background-color: #73c966;
+}
+
+.modal-footer .print-report {
+    background-color: #73c966 !important;
+    border-color: #73c966;
+}
+
+.package-sign {
+    margin-top: 75px;
+}
+
+.package-user {
+    width: 64%;
+    float: left;
+}
+
+.completed-package-score {
+    text-align: center;
+    /* padding-right: 101px; */
+    margin-top: 0;
+    border: solid 1px #ccc;
+    padding-bottom: 6px;
+    width: 150px;
+    float: right;
+    line-height: 44px;
+    background-color: #73c966;
+    color: #fff;
+    font-size: 28px;
+}
+
+.sign-line {
+    position: relative;
+    left: 7px;
+}
+
+.package-user span,
+.package-supervisor span {
+    position: relative;
+    top: 0;
+    float: left;
+}
+
+@media print {
+    .print-report {
+        display: none;
+    }
+}
+
+.checked-wrong-selection {
+    display: none;
+    margin-top: 35px;
+}
+
+.selected-call-comment {
+    display: none;
+    width: 100% !important;
+    margin-left: 0 !important;
+    border-color: #0000002e;
+    border-radius: 5px;
+    padding-left: 8px;
+}
+
+.selected-audio-loading {
+    top: 14px !important;
+}
+
+.selected-not-days {
+    width: 320px;
+    float: left;
+    font-size: 20px;
+}
+
+/* Call time statistics */
+.play-time {
+    background-color: #009688;
+}
+
+.special-calculate-time {
+    background-color: #116ac0;
+}
+
+.not-listen-time {
+    background-color: #000000ad;
+}
+
+.all-listening-times {
+    width: 70%;
+    height: 28px;
+    right: 0%;
+    position: absolute;
+    top: 1px;
+}
+
+.audio-all-times {
+    background-color: #ffb658;
+}
+
+#audio-all-times,
+#supervisor-counter,
+#play-time,
+#not-listen-time,
+#special-calculate-time {
+    float: left;
+    width: 188px;
+    text-align: center;
+    margin: 4px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+/* complaint styles */
+.complaint-done,
+.leader-done {
+    float: right;
+    margin-top: 5px;
+    display: none !important;
+    color: #fff;
+    background-color: #2090fe;
+    border-color: #2090fe;
+    padding: 5px 15px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.complaint-done img,
+.leader-done img {
+    width: 20px;
+    display: none;
+}
+
+.show-submit {
+    display: block !important;
+}
+
+.checked-complaint {
+    position: absolute;
+    right: 155px;
+    color: #2090fe;
+}
+
+.checked-complaint input {
+    display: block;
+    margin-left: 34px;
+    margin-top: 4px;
+    width: 20px;
+    height: 20px;
+}
+
+.checked-complaint button {
+    padding: 1px 10px;
+    border-radius: 5px;
+    background-color: #2090fe;
+    color: #fff;
+    border: solid 2px #2090fe;
+    font-weight: 500;
+}
+
+.reasonable-complaint {
+    width: 170px;
+}
+
+.reasonable-complaint > div input {
+    margin-left: 0;
+    float: left;
+    margin-right: 25px;
+}
+
+.unproven-complaint {
+    position: absolute;
+    right: 78px;
+    bottom: -11px;
+}
+
+.second-reasonable {
+    margin-left: -10px;
+    width: 103px;
+    float: left;
+}
+
+.reasonable-complaint span {
+    margin-left: 8px;
+    position: relative;
+    top: 12px;
+    color: #f44336;
+    font-weight: 500;
+}
+
+.complaint-count {
+    margin-left: 50px;
+}
+
+#assessment-agreement {
+    height: 50px;
+    margin-top: 45px;
+    margin-bottom: 35px;
+}
+
+#assessment-agreement input,
+#assessment-agreement button {
+    margin-left: 50px;
+}
+
+#assessment-agreement input {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    top: 6px;
+}
+
+#assessment-agreement button {
+    background-color: #2090fe;
+    border: solid 1px #2090fe;
+    height: 40px;
+    padding: 6px 15px;
+    color: #ffffff;
+    border-radius: 4px;
+}
+
+.header-dropdown {
+    position: relative;
+    bottom: 9px;
+    height: 63px;
+}
+
+#callTypes {
+    width: 350px;
+    height: 50px;
+    padding-left: 2px;
+    margin-bottom: 11px;
+    margin-top: 0px;
+}
+
+.skip-calls {
+    margin-top: 4px;
+    margin-left: -85px;
+    margin-bottom: 8px;
+    border-radius: 38px !important;
+    font-size: 15px !important;
+    padding-top: 2px !important;
+    padding-bottom: 2px !important;
+}
+
+.reset-assessment {
+    margin-left: 40px;
+    margin-top: -7px;
+    border-radius: 20px !important;
+}
+
+.assessment-filter-box {
+    height: 75px;
+    margin-top: 65px;
+    margin-bottom: -30px;
+}
+
+.assessment-filter-box .input-daterange {
+    float: left;
+    display: unset;
+    width: 38%;
+}
+
+.assessment-filter-box .date-selected {
+    float: left;
+    width: 50%;
+    margin-top: -6px;
+}
+
+.assessment-filter-box #assessment-score {
+    width: 20%;
+    float: left;
+}
+
+.assessment-filter-box #operator-fullname {
+    width: 40%;
+    float: left;
+}

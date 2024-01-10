@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css?family=Barlow+Condensed:400,500,600");
+
+#datatable {
+    width: 100%;
+    margin-top: 30px;
+}
+
+#datatable td {
+    padding: 10px;
+}
+
+table {
+    border-collapse: inherit;
+}
+
+.statistic {
+    float: left;
+    width: 48%;
+    height: 250px;
+    margin-right: 1%;
+    margin-left: 1%;
+    text-align: center;
+    background-color: #eee;
+    border-bottom-left-radius: 5px;
+    margin-bottom: 30px;
+    border-bottom-right-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.title {
+    width: 100%;
+    margin-top: -2px;
+    margin-left: -2px;
+    padding: 10px 0;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    color: #ffffff;
+    font-family: "Barlow Condensed", sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    background-color: #2090fe;
+    font-size: 21px;
+    /* -webkit-box-shadow: 0px 10px 51px -14px rgba(0, 0, 0, 0.7);
+    -moz-box-shadow: 0px 10px 51px -14px rgba(0, 0, 0, 0.7);
+    box-shadow: 0px 10px 51px -14px rgba(0, 0, 0, 0.7); */
+}
+
+.numbers {
+    width: 250px;
+    padding: 35px 0px 0px 0px;
+    margin: 30px auto;
+    color: #102c58;
+    font-size: 80px;
+    font-family: "Barlow Condensed", sans-serif;
+}
+
+.statistic:hover .title {
+    background-color: #183e7a;
+    transition: 0.2s;
+}
+
+.statistic:hover .numbers {
+    color: #183e7a;
+    transition: 0.2s;
+}
+
+#user-comment {
+    width: 91%;
+    margin-top: 20px;
+    margin-left: 2%;
+    padding-left: 6px;
+    padding-top: 3px;
+}
+
+#user-comment:focus {
+    outline: none;
+}
+
+#user-comment-send {
+    height: 127px;
+    position: absolute;
+    top: 94px;
+    margin-left: 4px;
+    border: none;
+    padding: 12px;
+    background-color: #2090fe;
+    border-radius: 2px;
+    color: #fff;
+    font-size: 22px;
+}
